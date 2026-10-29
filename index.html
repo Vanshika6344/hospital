@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css" integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<style>
+    /* *{
+        margin: 0;
+        padding: 0;
+    } */
+    .image {
+        background: url("../images/dr12.webp") center center no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 500px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .doctor-img {
+        width: 100%;
+        height: 416px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+</style>
+<body>
+    <div class="container-fluid">
+        <div class="d-flex justify-content-between align-items-center ">
+            <div class="d-flex gap-4 justify-content-between align-items-center ">
+                <p class="m-0 ">+012 345 6789</p>
+                <p class="d-none d-lg-block mb-0">info@example.com</p>
+            </div>
+            <div class="m-0">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-linkedin-in"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-youtube"></i>
+            </div>
+        </div>
+    </div>
+        <hr class="m-0">
+    <div class="container-fluid">
+        <div class="d-none d-lg-block">
+            <div class="d-flex  justify-content-between align-items-center p-3">
+                <div class="text-info">
+                    <h1 class="m-0 text-uppercase">
+                        <i class="fa fa-home"></i>
+                        Medinova
+                    </h1>
+                </div>
+                <div class="d-none d-lg-block">
+                    <ul class="d-flex align-items-center gap-4 list-unstyled mb-0">
+                        <li><a class="text-decoration-none text-info" href="#home">Home</a></li>
+                        <li><a class="text-decoration-none text-info" href="#about">About</a></li>
+                        <li><a class="text-decoration-none text-info" href="#service">Services</a></li>
+                        <li><a class="text-decoration-none text-info" href="#appointment"> Appointment</a></li>
+                        <li><a class="text-decoration-none text-info" href="#medical"> Packages</a></li>
+                        <li><a class="text-decoration-none text-info" href="#doctors"> Doctors</a></li>
+                        <li><a class="text-decoration-none text-info" href="#find"> Find Dr.</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="d-lg-none">
+            <div class="text-center align-items-center p-3">
+                <div class="text-info">
+                    <h1 class="m-0 text-uppercase">
+                        <i class="fa fa-home"></i>
+                        Medinova
+                    </h1>
+                </div>
+                <!-- menu overlay   -->
+            </div>
+        </div>
+    </div>
+    <div class="image" id="home">
+        <div class="text-center">
+            <h1 class="fs-50 fw-bold text-info bg-secondary bg-opacity-50 p-4">
+                WELCOME TO MEDINOVA <br> Best Healthcare Solution In Your City
+            </h1>
+            <button type="button" class="btn btn-secondary text-info">
+                Find Doctor
+            </button>
+            <button type="button" class="btn btn-secondary text-info">
+                Appointment
+            </button>
+        </div>
+    </div>
+     <div class="container mb-5" id="about">
+    <div class="row align-items-center mt-4">
+        <div class="col-lg-5">
+            <img src="../images/dr3.jpg" class="doctor-img">
+        </div>
+        <div class="col-lg-7">
+            <h5 class="about-title text-info">ABOUT US</h5>
+            <h1>
+                Best Medical Care For Yourself
+                and Your Family
+            </h1>
+            <p class="text-muted">
+                Tempor erat elitr at rebum at at clita aliquyam consetetur.Diam dolor diam ipsum et, tempor voluptua sit consetetur sit. Amet diam diam amet diam et eos sadipscing labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus clita duo justo et tempor consetetur takimata eirmod,dolores takimata consetetur invidunt magna dolores aliquyam dolores dolore. Amet erat amet et magna.
+            </p>
+            <div class="row g-3 text-center">
+                <div class="col-6 col-md-3">
+                    <div class="rounded-circle" alt="Cinque Terre">
+                        <i class="fa fa-3x fa-user-md text-info mb-3"></i>
+                        <h6>Qualified</h6>
+                        <p>Doctors</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="rounded-circle" alt="Cinque Terre">
+                        <i class="fa fa-3x fa-bed text-info mb-3"></i>
+                        <h6>Emergency</h6>
+                        <p>Services</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="rounded-circle" alt="Cinque Terre">
+                        <i class="fa fa-3x fa-microscope text-info mb-3"></i>
+                        <h6>Accurate</h6>
+                        <p>Testing</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="rounded-circle" alt="Cinque Terre">
+                        <i class="fa fa-3x fa-truck text-info mb-3" ></i>
+                        <h6>Free</h6>
+                        <p>Ambulance</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="container-fluid bg-secondary bg-opacity-25" id="service">
+        <div class="container">
+            <div class="text-center mx-auto mb-4">
+                <h5 class="d-inline-block text-info mt-5">Services</h5>
+                <h1 class="display">Excellent Medical Services</h1>
+            </div>
+            <div class="row g-4 pb-5">
+                <div class="col-lg-4 col-md-6">
+                    <div class="text-center">
+                        <h4 class="mb-3">Emergency Care</h4>
+                        <p>Kasd dolor no lorem nonumy sit labore tempor at justo rebum rebum stet, justo elitr dolor amet sit</p>
+                        <div class="row">
+                            <div class="col-12 col-lg-3 mx-auto">
+                                <button type="button" class="btn btn-primary w-100">
+                                    Open
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="text-center">
+                        <h4 class="mb-3">Operation & Surgery</h4>
+                        <p>Kasd dolor no lorem nonumy sit labore tempor at justo rebum rebum stet, justo elitr dolor amet sit</p>
+                        <div class="row">
+                            <div class="col-12 col-lg-3 mx-auto">
+                                <button type="button" class="btn btn-primary w-100">
+                                    Open
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="text-center">
+                        <h4 class="mb-3">Outdoor Checkup</h4>
+                        <p>Kasd dolor no lorem nonumy sit labore tempor at justo rebum rebum stet, justo elitr dolor amet sit</p>
+                        <div class="row">
+                            <div class="col-12 col-lg-3 mx-auto">
+                                <button type="button" class="btn btn-primary w-100">
+                                    Open
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="text-center">
+                        <h4 class="mb-3">Ambulance Service</h4>
+                        <p>Kasd dolor no lorem nonumy sit labore tempor at justo rebum rebum stet, just elitr dolor amet sit</p>
+                        <div class="row">
+                            <div class="col-12 col-lg-3 mx-auto">
+                                <button type="button" class="btn btn-primary w-100">
+                                    Open
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div
+                        class="text-center">
+                        <h4 class="mb-3">Medicine & Pharmacy</h4>
+                        <p>Kasd dolor no lorem nonumy sit labore tempor at justo rebum rebum stet, justo elitr dolor amet sit</p>
+                        <div class="row">
+                            <div class="col-12 col-lg-3 mx-auto">
+                                <button type="button" class="btn btn-primary w-100">
+                                    Open
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div
+                        class="text-center">
+                        <h4 class="mb-3">Blood Testing</h4>
+                        <p>Kasd dolor no lorem nonumy sit labore tempor at justo rebum rebum stet, justo elitr dolor amet sit</p>
+                        <div class="row">
+                            <div class="col-12 col-lg-3 mx-auto">
+                                <button type="button" class="btn btn-primary w-100">
+                                    Open
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+     <div class="container mt-5" id="appointment">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <h5 class="text-info">APPOINTMENT</h5>
+                <h2>Make An Appointment For Your Family</h2>
+                <p>
+                    Eirmod sed tempor lorem ut dolores. Aliquyam sit sadipscing kasd ipsum. Dolor ea et dolore et at sea ea at dolor, justo ipsum duo rebum sea invidunt voluptua. Eos vero eos vero ea et dolore eirmod et. Dolores diam duo invidunt lorem. Elitr ut dolores magna sit. Sea dolore sanctus sed et. Takimata takimata sanctus sed.
+                </p>
+            </div>
+            <div class="col-md-6">
+                <form>
+                    <h3 class="text-center mb-3 text-info">Book Appointment</h3>
+                    <input type="text" class="form-control mb-3" placeholder="Your Name">
+                    <input type="email" class="form-control mb-3" placeholder="Your Email" >
+                    <select class="form-control mb-3 form-select">
+                        <option>Select Department</option>
+                        <option>Cardiology</option>
+                        <option>Dental Care</option>
+                        <option>Eye Care</option>
+                        <option>General Medicine</option>
+                    </select>
+                    <input type="date" class="form-control mb-3">
+                    <button type="button" class="btn btn-primary w-100" >  Book Appointment </button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="container text-center" id="medical">
+        <h5 class=" text-info mt-5">Medical Packages</h5>
+        <h2 class="fw-bold mb-4">Awesome Medical Programs</h2>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <img src="../images/dental.jpg" class="card-img-top" >
+                    <div class="card-body">
+                        <p> Eirmod sed tempor lorem ut dolores. Aliquyam sit sadipscing kasd ipsum. Dolor ea et dolore et at sea ea at dolor, justo ipsum duo rebum sea invidunt voluptua. Eos vero eos vero ea et dolore eirmod et. Dolores diam duo invidunt lorem. Elitr ut dolores magna sit. Sea dolore sanctus sed et. Takimata takimata sanctus sed.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <img src="../images/health.jpg" class="card-img-top" >
+                    <div class="card-body">
+                        <p> Eirmod sed tempor lorem ut dolores. Aliquyam sit sadipscing kasd ipsum. Dolor ea et dolore et at sea ea at dolor, justo ipsum duo rebum sea invidunt voluptua. Eos vero eos vero ea et dolore eirmod et. Dolores diam duo invidunt lorem. Elitr ut dolores magna sit. Sea dolore sanctus sed et. Takimata takimata sanctus sed.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100">
+                     <img src="../images/ope.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <p> Eirmod sed tempor lorem ut dolores. Aliquyam sit sadipscing kasd ipsum. Dolor ea et dolore et at sea ea at dolor, justo ipsum duo rebum sea invidunt voluptua. Eos vero eos vero ea et dolore eirmod et. Dolores diam duo invidunt lorem. Elitr ut dolores magna sit. Sea dolore sanctus sed et. Takimata takimata sanctus sed.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   <div class="container text-center" id="doctors">
+        <h5 class=" text-info mt-5">OUR DOCTORS</h5>
+        <h2 class="fw-bold mb-4">Qualified Healthcare Professionals</h2>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <img src="../images/dr photo.avif" class="card-img-top" alt="Doctor">
+                    <div class="card-body">
+                        <h4>Dr. Name</h4>
+                        <p>Cardiologist</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <img src="../images/dr photo.avif" class="card-img-top" alt="Doctor">
+                    <div class="card-body">
+                        <h4>Dr. Name</h4>
+                        <p>Dental Specialist</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100">
+                     <img src="../images/dr photo.avif" class="card-img-top" alt="Doctor">
+                    <div class="card-body">
+                        <h4>Dr. Name</h4>
+                        <p>General Physician</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid text-center bg-secondary bg-opacity-25 p-3 mt-5" id="find">
+        <h5 class=" text-info mt-5"> FIND A DOCTOR </h5>
+        <h2 class="fw-bold mb-4">Find Healthcare Professionals</h2>
+        <p>Duo ipsum erat stet dolor sea ut nonumy tempor. Tempor duo lorem eos sit sed ipsum takimata ipsum sit est. Ipsum ea voluptua ipsum sit justo</p>
+        <div class="d-flex justify-content-center text-align-center"> 
+            <div>
+                <form>
+                    <div class="d-flex">
+                        <div>
+                            <select class="form-control mb-3 form-select w-100">
+                                <option>Select Department</option>
+                                <option>Cardiology</option>
+                                <option>Dental Care</option>
+                                <option>Eye Care</option>
+                                <option>General Medicine</option>
+                            </select>
+                        </div>
+                        <div class="d-flex">
+                            <input type="text" class="form-control mb-3 w-100" placeholder="Keyword">
+                            <button type="button" class="btn btn-primary btn-sm h-69" >  Book </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer class="footer mt-5">
+    <div class="container">
+        <div class="row g-5">
+            <div class="col-lg-3 col-md-6">
+                <h4>GET IN TOUCH</h4>
+                <p>
+                    No dolore ipsum accusam no lorem. Invidunt sed clita kasd clita et et dolor sed dolor.</p>
+                <p>
+                    <i class="fa-solid fa-location-dot icon"></i>
+                    123 Street, New York, USA
+                </p>
+                <p>
+                    <i class="fa-solid fa-envelope icon"></i>
+                    info@example.com
+                </p>
+                <p>
+                    <i class="fa-solid fa-phone icon"></i>
+                    +012 345 67890
+                </p>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <h4>QUICK LINKS</h4>
+                <div>
+                    <ul class="list-unstyled text-decoration-none text-info">
+                        <li>Home</li>
+                        <li>About Us</li>
+                        <li>Our Services</li>
+                        <li>Meet the team</li>
+                        <li>Latest Blog</li>
+                        <li>Contact Us</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <h4>POPULAR LINKS</h4>
+                <div>
+                    <ul class="list-unstyled text-decoration-none text-info">
+                        <li>Home</li>
+                        <li>About Us</li>
+                        <li>Our Services</li>
+                        <li>Meet the team</li>
+                        <li>Latest Blog</li>
+                        <li>Contact Us</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <h4>POPULAR LINKS</h4>
+                <div>
+                    <ul class="list-unstyled text-decoration-none text-info">
+                        <li>Home</li>
+                        <li>About Us</li>
+                        <li>Our Services</li>
+                        <li>Meet the team</li>
+                        <li>Latest Blog</li>
+                        <li>Contact Us</li>
+                    </ul>
+                </div>
+            </div>
+    </div>
+        <div class="container-fluid mt-4  ">
+            <div class="row align-items-center">
+                <div class="col-md-6 mb-3 mb-md-0">
+                    <span>Your Site Name.</span>
+                    All Rights Reserved.
+                </div>
+            </div>
+        </div>
+</footer>
+</body>
+</html>
